@@ -24,18 +24,38 @@ public class LambtonStringTools
         return decimal;
                   }
 
-                  String initials(String name)
-                  {
-                      String S1=name.substring(0);
-                      char a=name.charAt(0);
-                      char b;
 
-                      String S2=name.substring(S1.length()+1);
 
-                      String S3;
-                      return  S1;
 
-                  }
+
+
+
+    String initials(String name)
+    {
+
+        String First=name.substring(0,5);
+        String Mid=name.substring(First.length()+1,12);
+        String SurName=name.substring(Mid.length());
+
+        char a=name.charAt(0);
+       char b =Mid.charAt(0);
+
+        String initalName=First.concat(Mid);
+        String S3=initalName.concat(SurName);
+        
+
+        return  S3;
+
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
