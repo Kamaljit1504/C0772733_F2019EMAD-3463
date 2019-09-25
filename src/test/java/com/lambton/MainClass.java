@@ -13,5 +13,6 @@ public class MainClass
         System.out.println( lst.initials("James tiBeriUs kiRK"));
         System.out.println(lst.replaceSubString("the dog jumped over the fence","print the dog as that","that dog jumped over that fence"));
 
+        
     }
 }
