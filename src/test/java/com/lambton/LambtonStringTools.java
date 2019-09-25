@@ -31,7 +31,7 @@ public class LambtonStringTools
                       char b;
 
                       String S2=name.substring(S1.length()+1);
-                      
+
                       String S3;
                       return  S1;
 
