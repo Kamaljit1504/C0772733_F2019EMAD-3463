@@ -42,7 +42,7 @@ public class LambtonStringTools
 
         String initalName=First.concat(Mid);
         String S3=initalName.concat(SurName);
-        
+
 
         return  S3;
 
