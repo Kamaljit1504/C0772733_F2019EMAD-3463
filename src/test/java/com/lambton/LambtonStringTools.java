@@ -34,17 +34,20 @@ public class LambtonStringTools
     {
 
         String First=name.substring(0,5);
-        String Mid=name.substring(First.length()+1,12);
-        String SurName=name.substring(Mid.length());
+        String Mid=name.substring(First.length()+1,10);
+        String SurName=name.substring(Mid.length()+1);
 
         char a=name.charAt(0);
        char b =Mid.charAt(0);
 
         String initalName=First.concat(Mid);
         String S3=initalName.concat(SurName);
+        String S4= String.valueOf(First.charAt(0)).concat(String.valueOf(Mid.charAt(0)));
+        String S5=S4.concat(SurName);
 
 
-        return  S3;
+
+        return  S5;
 
     }
 
