@@ -51,8 +51,28 @@ public class LambtonStringTools {
         return s1;
     }
 
- 
+ char mostFrequentword(String SSS)
+ {
+     int count=0;
 
+     for(int i=0;i<SSS.length();i++)
+     {
+         char[] a=SSS.toCharArray();
+         char[] b;
+         b[i]=a[i];
+         for(int j=0;j<=i;j++)
+         {
+             if(a[i]==b[j])
+             {
+                 System.out.println(a[i]);
+                 count++;
+
+             }
+         }
+     }
+
+
+ }
 
 
 
